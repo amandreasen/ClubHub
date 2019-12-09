@@ -5,6 +5,6 @@
  4.    Some screenshots of your app (highlight important features) 
  5.    ClubHub serves to organize clubs on campus by allowing students to filter clubs by categories. The “Post” feature allows students to post ideas about new clubs and assists in creating groups for collaboration in starting new clubs.  
  6.    iOS: NSLayoutConstraint- to organize the buttons in the filter screen we used NSLayoutConstraint; UICollectionView- used to display all clubs; Navigation- used to go from home to filter screen, and also to the post or profile screens and back to home; integration with API- provided details on clubs
-      Backend: 
+      Backend: Designed an API that implemented multiple GET, POST, and DELETE routes for users, clubs, and posts. Supports displaying all instances of a given data type, filtering by id, creating/deleting an instance, and allows users to follow/unfollow clubs and posts. Designed SQL alchemy models for users, clubs and posts; related data types through association tables that defined many-to-many relationships between users and clubs/posts. Used Docker to containerize and deploy app to Google Cloud.
 
 7.   Anything else you want your grader to know  
